@@ -5,7 +5,8 @@
   here is the DEFINITION, and this repo's deps.edn names exactly the
   definitions it reaches -- nothing else.
 "
-  (:require [kotoba.fs.split :refer [split]])
+  (:require [kotoba.lang.text :as str]
+            [kotoba.fs.split :refer [split]])
   #?(:clj  (:require [kotoba.lang.text :as str])
      :cljs (:require [kotoba.lang.text :as str])))
 
